@@ -1,4 +1,4 @@
-FROM postgres:12.11
+FROM postgres:15.2
 
 RUN mkdir /sql
 COPY ./docker/sql/seed.psql /sql/seed.psql
